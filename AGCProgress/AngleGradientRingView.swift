@@ -29,7 +29,7 @@ class AngleGradientRingView: UIView {
         
         strokColor = UIColor.gray
         //MARK: - set you need startAngle endAngle  设置你的开始点 结束点
-        let path = UIBezierPath(arcCenter: CGPoint(x:bounds.width/2,y:bounds.height/2), radius: 90, startAngle: degreesToRadians(angle: -210), endAngle: degreesToRadians(angle: 30), clockwise: true)
+        let path = UIBezierPath(arcCenter: CGPoint(x:bounds.width/2,y:bounds.height/2), radius: 90, startAngle: degreesToRadians(angle: -240), endAngle: degreesToRadians(angle: 60), clockwise: true)
        
         trackLayer = CAShapeLayer()
         trackLayer.frame = bounds
